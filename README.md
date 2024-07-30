@@ -1,5 +1,8 @@
 ### Project Overview: Electric Vehicle Market Analysis for AtliQ Motors
 
+#### Live Dashboard: [Live](https://app.powerbi.com/view?r=eyJrIjoiYmI2ZTY4MzMtY2UxNC00ZDBlLTlmODctYThkNGRjOGI0ZDU2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+#### Vedio Presentation Link: [Link](https://www.youtube.com/embed/3_pHC9RWLT4)
+
 #### Objective:
 The primary objective of this project is to conduct a detailed market study of the existing electric and hybrid vehicle market in India to support AtliQ Motors' expansion plans. This analysis aims to provide insights into market trends, consumer behavior, competitive landscape, and growth opportunities for AtliQ Motors' bestselling models. As a part of their expansion plans, they wanted to launch their bestselling models in India where their market share is less than 2%
 
@@ -51,6 +54,7 @@ The primary objective of this project is to conduct a detailed market study of t
 
 3. **Comparative Analysis**:
    - **Bar Chart**: Geographical distribution visual different Bar Chart different States ( different 2-4 wheeler)
+   - **Map Visual**: State with different 2-4Wheeler EV sales 
 
 4. **Metrixs Analys**:
    - **Matrix**: Create different Metrics table like state,makers are compare with different TV,TEV,PR%, CPR and CAGR_EV or total
@@ -68,5 +72,23 @@ The primary objective of this project is to conduct a detailed market study of t
 
 This comprehensive analysis will provide Bruce Haryali and AtliQ Motors with valuable insights into the Indian EV market, helping them make informed decisions about their expansion strategy.
 
+### Data Model: 
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/datamodel.png)  
+
 ### DashBoard Screenshot:
-1. Home
+**1) Home**
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/0%20Home.png)
+
+**2)Dashboard 1**:
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.3.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.4.png)
+
+**3) Dashboard 3**:
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%202.1.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%202.2.png)
