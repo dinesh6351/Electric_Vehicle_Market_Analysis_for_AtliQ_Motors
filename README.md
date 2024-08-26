@@ -1,7 +1,7 @@
 ### Project Overview: Electric Vehicle Market Analysis for AtliQ Motors
 
 #### Live Dashboard: [Live](https://app.powerbi.com/view?r=eyJrIjoiYmI2ZTY4MzMtY2UxNC00ZDBlLTlmODctYThkNGRjOGI0ZDU2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-#### Vedio Presentation Link: [Link](https://www.youtube.com/embed/3_pHC9RWLT4)
+#### Vedio Presentation Link: [Link](https://www.youtube.com/embed/F6PRtHQvtXo)
 
 #### Objective:
 The primary objective of this project is to conduct a detailed market study of the existing electric and hybrid vehicle market in India to support AtliQ Motors' expansion plans. This analysis aims to provide insights into market trends, consumer behavior, competitive landscape, and growth opportunities for AtliQ Motors' bestselling models. As a part of their expansion plans, they wanted to launch their bestselling models in India where their market share is less than 2%
