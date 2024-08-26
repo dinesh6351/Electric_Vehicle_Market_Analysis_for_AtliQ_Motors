@@ -1,5 +1,8 @@
 ### Project Overview: Electric Vehicle Market Analysis for AtliQ Motors
 
+#### Live Dashboard: [Live](https://app.powerbi.com/view?r=eyJrIjoiYmI2ZTY4MzMtY2UxNC00ZDBlLTlmODctYThkNGRjOGI0ZDU2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+#### Vedio Presentation Link: [Link](https://www.youtube.com/embed/3_pHC9RWLT4)
+
 #### Objective:
 The primary objective of this project is to conduct a detailed market study of the existing electric and hybrid vehicle market in India to support AtliQ Motors' expansion plans. This analysis aims to provide insights into market trends, consumer behavior, competitive landscape, and growth opportunities for AtliQ Motors' bestselling models. As a part of their expansion plans, they wanted to launch their bestselling models in India where their market share is less than 2%
 
@@ -17,7 +20,11 @@ The primary objective of this project is to conduct a detailed market study of t
    - **Formula**:CAGR = [(Ending Value / Beginning Value) ** 1/n] -1
    - Measures the mean annual growth rate of electric vehicle sales over a specified period.
 3. **Peneration Rate for 2022_24 Change** :
-   -**Formula**: ![image](https://github.com/user-attachments/assets/dd712aac-31e5-4c64-b11a-589231e5d2e8)
+   -**Formula**:    ![image](https://github.com/user-attachments/assets/97e566b2-a681-40ca-abe0-eb456d3e0f6d)
+4. **Projected EV Sales 2024:** ProjectedEVSales2024 = [SecondEndingValueStatesEV] * POWER(1 + [CAGR_statesEV22_23], 1)
+5. **Projected EV Sales 2030:** ProjectedEVSales2030 = [CAGR2022_state]*POWER(1+[CAGR_statesEV],8)
+6. **CAGR_State(Compound Anual Growth Rate State)**: CAGR_statesEV = CALCULATE(POWER(DIVIDE([CAGR2024_state],[CAGR2022_state],0),0.5)-1,ALL(dim_date))
+7. **CAGR_Makers(Compound Anual Growth Rate Maker)**: CAGR_MakersEV = POWER(DIVIDE([CAGR2024_maker],[CAGR2022_maker],0),0.5) -1
 
 #### Data Analysis:
 1. **Market Trends**:
@@ -51,6 +58,7 @@ The primary objective of this project is to conduct a detailed market study of t
 
 3. **Comparative Analysis**:
    - **Bar Chart**: Geographical distribution visual different Bar Chart different States ( different 2-4 wheeler)
+   - **Map Visual**: State with different 2-4Wheeler EV sales 
 
 4. **Metrixs Analys**:
    - **Matrix**: Create different Metrics table like state,makers are compare with different TV,TEV,PR%, CPR and CAGR_EV or total
@@ -68,5 +76,27 @@ The primary objective of this project is to conduct a detailed market study of t
 
 This comprehensive analysis will provide Bruce Haryali and AtliQ Motors with valuable insights into the Indian EV market, helping them make informed decisions about their expansion strategy.
 
+### Data Model: 
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/datamodel.png)  
+
 ### DashBoard Screenshot:
-1. Home
+**1) Home**
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/0%20Home.png)
+
+**2)Dashboard 1**:
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.3.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.4.png)
+
+**3) Dashboard 2**:
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.3.png)
