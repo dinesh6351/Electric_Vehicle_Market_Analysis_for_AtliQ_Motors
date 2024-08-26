@@ -20,7 +20,11 @@ The primary objective of this project is to conduct a detailed market study of t
    - **Formula**:CAGR = [(Ending Value / Beginning Value) ** 1/n] -1
    - Measures the mean annual growth rate of electric vehicle sales over a specified period.
 3. **Peneration Rate for 2022_24 Change** :
-   -**Formula**: ![image](https://github.com/user-attachments/assets/dd712aac-31e5-4c64-b11a-589231e5d2e8)
+   -**Formula**:    ![image](https://github.com/user-attachments/assets/97e566b2-a681-40ca-abe0-eb456d3e0f6d)
+4. **Projected EV Sales 2024:** ProjectedEVSales2024 = [SecondEndingValueStatesEV] * POWER(1 + [CAGR_statesEV22_23], 1)
+5. **Projected EV Sales 2030:** ProjectedEVSales2030 = [CAGR2022_state]*POWER(1+[CAGR_statesEV],8)
+6. **CAGR_State(Compound Anual Growth Rate State)**: CAGR_statesEV = CALCULATE(POWER(DIVIDE([CAGR2024_state],[CAGR2022_state],0),0.5)-1,ALL(dim_date))
+7. **CAGR_Makers(Compound Anual Growth Rate Maker)**: CAGR_MakersEV = POWER(DIVIDE([CAGR2024_maker],[CAGR2022_maker],0),0.5) -1
 
 #### Data Analysis:
 1. **Market Trends**:
@@ -80,15 +84,19 @@ This comprehensive analysis will provide Bruce Haryali and AtliQ Motors with val
 ![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/0%20Home.png)
 
 **2)Dashboard 1**:
-![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.png)
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.png)
 
 ![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.2.png)
 
-![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.3.png)
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.2.png)
 
-![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%201.4.png)
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.3.png)
 
-**3) Dashboard 3**:
-![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%202.1.png)
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_1.4.png)
 
-![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard%202.2.png)
+**3) Dashboard 2**:
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.2.png)
+
+![image](https://github.com/dinesh6351/Electric_Vehicle_Market_Analysis_for_AtliQ_Motors/blob/main/Screenshot/Dashboard_2.3.png)
